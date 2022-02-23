@@ -1,0 +1,180 @@
+Files already downloaded and verified
+Files already downloaded and verified
+GPU device:  cuda:0
+[SGD (
+Parameter Group 0
+    dampening: 0
+    lr: 0.001
+    momentum: 0.9
+    nesterov: False
+    weight_decay: 0
+)]
+[SGD (
+Parameter Group 0
+    dampening: 0
+    lr: 0.001
+    momentum: 0.9
+    nesterov: False
+    weight_decay: 0
+), SGD (
+Parameter Group 0
+    dampening: 0
+    lr: 0.001
+    momentum: 0.9
+    nesterov: False
+    weight_decay: 0
+)]
+Alexnet without LRN has 57,044,810 trainable parameters
+Alexnet with LRN has 57,044,810 trainable parameters
+Training: Alexnet without LRN
+Epoch 0/9
+----------
+train Loss: 2.0351 Acc: 0.2349
+Epoch time taken:  50.53277349472046
+val Loss: 1.5954 Acc: 0.4124
+Epoch time taken:  58.4876823425293
+
+Epoch 1/9
+----------
+train Loss: 1.5131 Acc: 0.4435
+Epoch time taken:  50.98261904716492
+val Loss: 1.3305 Acc: 0.5138
+Epoch time taken:  59.08008313179016
+
+Epoch 2/9
+----------
+train Loss: 1.2677 Acc: 0.5439
+Epoch time taken:  51.21523976325989
+val Loss: 1.1259 Acc: 0.5998
+Epoch time taken:  59.23441433906555
+
+Epoch 3/9
+----------
+train Loss: 1.0550 Acc: 0.6254
+Epoch time taken:  51.3049693107605
+val Loss: 1.0043 Acc: 0.6486
+Epoch time taken:  59.332334995269775
+
+Epoch 4/9
+----------
+train Loss: 0.8945 Acc: 0.6881
+Epoch time taken:  51.3438446521759
+val Loss: 0.9533 Acc: 0.6814
+Epoch time taken:  59.52051043510437
+
+Epoch 5/9
+----------
+train Loss: 0.7854 Acc: 0.7286
+Epoch time taken:  51.380666971206665
+val Loss: 0.7492 Acc: 0.7388
+Epoch time taken:  59.44980573654175
+
+Epoch 6/9
+----------
+train Loss: 0.6877 Acc: 0.7590
+Epoch time taken:  51.40812706947327
+val Loss: 0.7594 Acc: 0.7420
+Epoch time taken:  59.39004588127136
+
+Epoch 7/9
+----------
+train Loss: 0.6087 Acc: 0.7883
+Epoch time taken:  51.534648418426514
+val Loss: 0.6400 Acc: 0.7811
+Epoch time taken:  59.79116344451904
+
+Epoch 8/9
+----------
+train Loss: 0.5402 Acc: 0.8145
+Epoch time taken:  51.61476707458496
+val Loss: 0.6127 Acc: 0.7887
+Epoch time taken:  59.482341289520264
+
+Epoch 9/9
+----------
+train Loss: 0.4763 Acc: 0.8333
+Epoch time taken:  51.37100696563721
+val Loss: 0.6230 Acc: 0.7948
+Epoch time taken:  59.45011305809021
+
+Training complete in 10m 16s
+Best val Acc: 0.794800
+==================================================
+Training: Alexnet with LRN
+Epoch 0/9
+----------
+train Loss: 2.2519 Acc: 0.1371
+Epoch time taken:  61.95476317405701
+val Loss: 2.0295 Acc: 0.2539
+Epoch time taken:  70.03383278846741
+
+Epoch 1/9
+----------
+train Loss: 1.8328 Acc: 0.3208
+Epoch time taken:  61.99081110954285
+val Loss: 1.5770 Acc: 0.4133
+Epoch time taken:  70.50179266929626
+
+Epoch 2/9
+----------
+train Loss: 1.4838 Acc: 0.4533
+Epoch time taken:  61.87407898902893
+val Loss: 1.3389 Acc: 0.5081
+Epoch time taken:  70.1549084186554
+
+Epoch 3/9
+----------
+train Loss: 1.2902 Acc: 0.5316
+Epoch time taken:  62.185779094696045
+val Loss: 1.1661 Acc: 0.5797
+Epoch time taken:  70.41587233543396
+
+Epoch 4/9
+----------
+train Loss: 1.1201 Acc: 0.6000
+Epoch time taken:  62.033957958221436
+val Loss: 0.9891 Acc: 0.6501
+Epoch time taken:  70.2527813911438
+
+Epoch 5/9
+----------
+train Loss: 0.9698 Acc: 0.6577
+Epoch time taken:  62.04640746116638
+val Loss: 0.9422 Acc: 0.6650
+Epoch time taken:  70.2692129611969
+
+Epoch 6/9
+----------
+train Loss: 0.8506 Acc: 0.7007
+Epoch time taken:  62.09388446807861
+val Loss: 0.8336 Acc: 0.7019
+Epoch time taken:  70.35916471481323
+
+Epoch 7/9
+----------
+train Loss: 0.7640 Acc: 0.7308
+Epoch time taken:  61.966383934020996
+val Loss: 0.7608 Acc: 0.7347
+Epoch time taken:  70.18622398376465
+
+Epoch 8/9
+----------
+train Loss: 0.6885 Acc: 0.7568
+Epoch time taken:  62.01891493797302
+val Loss: 0.7254 Acc: 0.7452
+Epoch time taken:  70.40958213806152
+
+Epoch 9/9
+----------
+train Loss: 0.6212 Acc: 0.7810
+Epoch time taken:  62.40165042877197
+val Loss: 0.6550 Acc: 0.7712
+Epoch time taken:  70.68810105323792
+
+Training complete in 12m 6s
+Best val Acc: 0.771200
+==================================================
+Model: Alexnet without LRN
+Test Loss:0.652 | Test acc: 79.42%
+Model: Alexnet with LRN
+Test Loss:0.668 | Test acc: 77.54%
